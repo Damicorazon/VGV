@@ -1,0 +1,1264 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.clear {
+  clear: both; }
+
+body {
+  font-family: sans-serif; }
+
+.newsletter {
+  color: #721c24;
+  background-color: #3bee59;
+  border-color: #3bee59;
+  border-radius: .25rem;
+  padding: .75rem 1.25rem;
+  margin-bottom: 20px; }
+
+.newsletterError {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  border-radius: .25rem;
+  padding: .75rem 1.25rem;
+  margin-bottom: 20px; }
+
+header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px; }
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center; }
+
+header nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 50px 5%;
+  font-size: 24px; }
+
+nav a:hover {
+  color: #00E300;
+  text-decoration: underline; }
+
+header img {
+  width: 167px;
+  height: 113px; }
+
+#burger {
+  display: none; }
+
+#logo {
+  display: none; }
+
+#banniere-page-index {
+  background: url(../img/plage_accueil.jpg) no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 190px 0px 80px 0px;
+  background-position: center; }
+
+.deuxCadres {
+  width: 50%;
+  display: flex;
+  justify-content: center; }
+
+.ligne-banniere-page-index {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.carte-cap {
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #000;
+  box-shadow: 2px 2px 2px #000; }
+
+.carte-cap h1 {
+  font-size: 40px;
+  color: #00e300;
+  font-weight: normal;
+  padding: 10px;
+  background-color: white; }
+
+.carte-cap p {
+  font-size: 45px;
+  color: white;
+  font-weight: normal;
+  padding: 45px 0px 94px 15px; }
+
+.button-cap {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  background-color: #00E300;
+  padding: 10px; }
+
+.button-cap:hover {
+  color: black; }
+
+.carte-offre {
+  background: url(../img/ski2.png) no-repeat center;
+  background-size: cover;
+  border: 4px solid white;
+  width: 75%; }
+
+.carte-offre h2 {
+  font-size: 30px;
+  color: #00e300;
+  font-weight: normal;
+  padding: 5px;
+  background-color: white; }
+
+.button-offre {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  background-color: #00E300;
+  display: block;
+  width: 50%;
+  display: inline-block;
+  margin: 250px 0px 0px 0px;
+  padding: 10px;
+  text-align: center; }
+
+.button-offre:hover {
+  color: black; }
+
+#dernieres_offres {
+  width: 100%;
+  background-color: #e3fce3; }
+
+#dernieres_offres h3 {
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 48px;
+  color: black;
+  padding: 50px 0 50px 0; }
+
+.zoneCarte {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.carte {
+  width: 20%;
+  float: left;
+  border: grey solid 1px;
+  background-color: white;
+  margin: 2%; }
+
+.image-carte {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 240px; }
+
+.description {
+  font-size: 18px;
+  text-transform: none;
+  font-weight: normal;
+  padding: 15px;
+  box-sizing: border-box; }
+
+h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.bouton_voir {
+  background-color: #00E300;
+  border: none;
+  padding: 3px 5px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px; }
+
+.prix {
+  font-weight: bold;
+  font-size: 24px;
+  float: right;
+  color: #00E300; }
+
+.bouton_voir a {
+  cursor: pointer;
+  background-color: #00E300;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: normal;
+  color: white;
+  display: block; }
+
+.bouton_voir:hover {
+  color: black;
+  cursor: pointer; }
+
+.bouton_voir_tout {
+  background-color: #00E300;
+  text-align: center;
+  display: block;
+  margin: 10px auto 30px auto;
+  width: 300px;
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-weight: normal;
+  padding: 8px; }
+
+.bouton_voir_tout:hover {
+  color: black; }
+
+#choisir {
+  background: url(../img/feuille.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#choisir h3 {
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 48px;
+  color: black;
+  padding: 50px 0 50px 0; }
+
+.icons {
+  display: flex;
+  margin: 30px 0px 0px 0px; }
+
+.content-icon {
+  width: 25%;
+  padding: 0 10px;
+  box-sizing: border-box; }
+
+.content-icon p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+  padding: 14px 0 20px 0; }
+
+.content-icon img {
+  margin: auto;
+  display: block;
+  height: 120px; }
+
+#newsletter {
+  background: url(../img/moussa2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 30px; }
+
+#newsletter h3 {
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 48px;
+  color: white;
+  padding: 30px 0 30px 0; }
+
+#newsletter p {
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 30px;
+  color: white; }
+
+#barre {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  padding: 110px 0 30px 0; }
+
+::placeholder {
+  color: #BEBEBE;
+  font-size: 15px;
+  padding: 10px; }
+
+#blocMail {
+  display: flex; }
+
+#validate {
+  color: #ffffff;
+  background-color: #00E300;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  padding: 10px; }
+
+#validate:hover {
+  color: black; }
+
+#qui {
+  background: url(../img/feuille.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#qui h3 {
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 48px;
+  color: black;
+  padding: 50px 0 50px 0; }
+
+.ligne {
+  width: 100%;
+  display: flex; }
+
+#bloc-gauche {
+  width: 40%;
+  padding: 0px 50px 50px 200px; }
+
+#image-agence img {
+  width: 100%; }
+
+#bloc-droit {
+  width: 60%;
+  padding: 0px 100px 0px 0px; }
+
+#bloc-bio p {
+  text-align: justify;
+  padding: 20px 0px 10px 0px;
+  line-height: 25px; }
+
+#contact {
+  width: 100%;
+  background-color: #e3fce3; }
+
+#contact h3 {
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 48px;
+  color: black;
+  padding: 50px 0 50px 0; }
+
+#infos-pratique {
+  display: flex;
+  margin: auto;
+  width: 55%;
+  padding: 30px; }
+
+.content-info {
+  padding: 0 20px 0;
+  box-sizing: border-box; }
+
+.content-info p {
+  max-width: 500px;
+  line-height: 25px;
+  font-size: 18px;
+  text-align: center; }
+
+.content-info span {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #00E300; }
+
+.fab {
+  font-size: 70px;
+  color: #00E300;
+  margin: 10px; }
+
+.fab:hover {
+  color: #3b5998;
+  cursor: pointer; }
+
+#map {
+  width: 100%;
+  height: 200px; }
+
+/******* formulaire contact section Contactez-nous*********/
+#bloc-form {
+  width: 81%; }
+
+.form-style-1 {
+  max-width: 550px;
+  font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  padding: 20px;
+  display: block;
+  list-style: none;
+  /* espace entre les bloc : */
+  margin: 10px 10px 10px 10px; }
+
+.date {
+  padding: 4px;
+  margin: 10px 10px 10px 10px; }
+
+.form-style-1 input[type=text],
+.form-style-1 input[type=tel],
+.form-style-1 input[type=email],
+textarea,
+select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #BEBEBE;
+  padding: 7px;
+  margin: 1px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none; }
+
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=tel]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus {
+  -moz-box-shadow: 0 0 8px #00e300;
+  -webkit-box-shadow: 0 0 8px #00e300;
+  box-shadow: 0 0 8px #00e300;
+  border: 1px solid #00e300; }
+
+.form-style-1 .field-divided {
+  width: 47%;
+  margin: 15px 0 0 0; }
+
+.form-style-1 .field-long {
+  width: 100%;
+  margin: 15px 0 0 0; }
+
+.form-style-1 .field-textarea {
+  height: 250px;
+  margin: 5px 0 0 0; }
+
+.form-style-1 input[type=submit], .form-style-1 input[type=button] {
+  background: #00e300;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 1%; }
+
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none; }
+
+input[type=checkbox] {
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  cursor: pointer; }
+
+input[type=submit]:disabled {
+  cursor: not-allowed;
+  background: black; }
+
+/******************** PAGE OFFRES *****************/
+#accueil-offres {
+  background: url(../img/background-page-offres.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 190px; }
+
+#accueil-offres h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #00e300;
+  font-weight: normal; }
+
+.rect-blanc {
+  background-color: white;
+  margin: auto;
+  width: 600px; }
+
+/* barre de recherche */
+#choixVoyage {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px; }
+
+#choixVoyage p {
+  padding: 0 30px 0 30px;
+  font-size: 24px; }
+
+.btnVoyage {
+  color: #00E300;
+  background-color: #ffffff;
+  border: 1px solid #00E300;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px 20px; }
+
+.btnVoyage:hover {
+  color: #ffffff;
+  background-color: #00E300;
+  border: 1px solid #00E300;
+  transition: 0.5s;
+  cursor: pointer; }
+
+.btnSelected {
+  color: #ffffff;
+  background-color: #00E300;
+  border: 1px solid #00E300;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px; }
+
+#dernieres-offres {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.cartes {
+  margin: 0 auto; }
+
+#banniere-page-reservation {
+  background-image: url(../img/map22.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 120px;
+  padding: 150px 0 150px 0; }
+
+#rectangle-demande-reservation {
+  background-color: white;
+  margin: auto;
+  width: 40%; }
+
+#rectangle-demande-reservation h1 {
+  font-size: 36px;
+  color: #00E300;
+  text-align: center;
+  font-weight: normal; }
+
+#demande-formulaire h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 50px; }
+
+#form {
+  background-color: #e8e8e8;
+  width: 550px;
+  margin: auto; }
+
+#facebook-et-map {
+  display: flex;
+  flex-wrap: nowrap; }
+
+/********** FOOTER **********/
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #00e300; }
+
+footer h5 {
+  font-size: 18px; }
+
+.ligne2 {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box; }
+
+.ligne2 div {
+  width: 50%; }
+
+.copyright {
+  color: white;
+  text-align: center;
+  line-height: 25px; }
+
+.copyright a {
+  text-decoration: none;
+  color: white; }
+
+.copyright a:hover {
+  color: black;
+  cursor: pointer; }
+
+.logo {
+  color: white;
+  text-align: center;
+  line-height: 25px; }
+
+.logo img {
+  padding: 2px;
+  width: 7%; }
+
+#maintenance {
+  background: url(../img/feuille.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px; }
+
+#maintenance h1 {
+  font-size: 70px;
+  color: #00E300;
+  text-align: center; }
+
+#maintenance h2 {
+  font-size: 50px;
+  text-align: center; }
+
+#mentions {
+  padding: 180px 10px 50px 10px; }
+
+#mentions h1 {
+  font-size: 50px;
+  text-align: center; }
+
+#mentions h1 {
+  font-size: 35px; }
+
+#mentions h2 {
+  font-size: 30px; }
+
+#mentions h3 {
+  font-size: 25px; }
+
+#mentions p {
+  font-size: 20px; }
+
+@media screen and (max-width: 1000px) {
+  /** menu burger **/
+  .bordureMenuBurger {
+    width: 100%; }
+
+  #burger {
+    display: block;
+    margin: 0px auto;
+    width: 20px;
+    height: 20px;
+    padding: 10px; }
+
+  #logo {
+    display: block;
+    margin: auto; }
+
+  #menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    padding: 5px; }
+
+  #menu a {
+    text-decoration: none;
+    color: gray;
+    display: block;
+    padding: 20px;
+    font-size: 25px; }
+
+  #menu img {
+    display: none; }
+
+  /** banniere page index1 **/
+  .carte-cap {
+    width: 90%;
+    padding-bottom: 35px; }
+
+  #accueil h1 {
+    font-size: 20px; }
+
+  #accueil p {
+    font-size: 17px; }
+
+  .button-cap {
+    font-size: 30px; }
+
+  .carte-offre {
+    width: 90%;
+    margin: 30px auto; }
+
+  .carte-offre h2 {
+    font-size: 36px; }
+
+  .button-offre {
+    font-size: 30px; }
+
+  /**section qui page index1 **/
+  .carte {
+    width: 35%; }
+
+  .ligne {
+    display: block; }
+
+  .carte-cap p {
+    padding: 45px 0px 173px 15px; }
+
+  #bloc-gauche {
+    padding: 0px;
+    display: block;
+    width: 40%;
+    margin: auto; }
+
+  #image-agence img {
+    width: 100%;
+    margin: auto; }
+
+  #bloc-droit {
+    padding: 0px;
+    display: block;
+    width: 80%;
+    margin: auto; }
+
+  #bloc-bio p {
+    text-align: justify;
+    line-height: 35px;
+    font-size: 20px; }
+
+  /**section contact  page index1 **/
+  #infos-pratique {
+    display: block;
+    margin: auto;
+    flex-wrap: wrap; }
+
+  .content-info {
+    width: 100%; }
+
+  .content-info p {
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center; }
+
+  #facebook-et-map {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center; }
+
+  .fab {
+    display: block;
+    text-align: center; }
+
+  #map {
+    z-index: 0; }
+
+  #bloc-form {
+    display: block;
+    width: 100%; }
+
+  #bloc-form {
+    width: 100%;
+    display: block; }
+
+  .form-style-1 .field-divided {
+    width: 100%; }
+
+  #envoyerForm {
+    display: block;
+    font-size: 20px; }
+
+  /** choixVoyage page offres **/
+  #accueil-offres h1 {
+    font-size: 28px; }
+
+  .rect-blanc {
+    background-color: white;
+    margin: auto;
+    width: 40%; }
+
+  #choixVoyage {
+    display: flex;
+    margin: 20px auto;
+    justify-content: center; }
+
+  .btnVoyage {
+    font-size: 20px;
+    padding: 6px;
+    margin: 5px 5px; }
+
+  .ligne2 {
+    padding: 0px; } }
+@media screen and (max-width: 800px) {
+  .deuxCadres {
+    width: 100%; }
+
+  .carte {
+    width: 45%; }
+
+  #choixVoyage {
+    display: block;
+    margin: 20px auto;
+    justify-content: center;
+    padding: 40px; }
+
+  .btnVoyage {
+    display: block;
+    font-size: 23px;
+    padding: 16px;
+    margin: 5px 5px;
+    text-align: center; }
+
+  .icons {
+    flex-direction: column;
+    align-items: center; } }
+@media screen and (max-width: 565px) {
+  #demande-formulaire .form-style-1 {
+    margin: 0px; }
+
+  #form {
+    width: 100%; } }
+@media screen and (max-width: 500px) {
+  /** menu burger**/
+  .bordureMenuBurger {
+    width: 100%; }
+
+  #burger {
+    width: 20px;
+    padding: 10px; }
+
+  #logo {
+    display: block;
+    width: 70px;
+    height: 50px;
+    margin: auto; }
+
+  /** banniere page index1 **/
+  #banniere-page-index {
+    padding: 140px 0px 80px 0px; }
+
+  .carte-cap {
+    width: 90%;
+    margin: auto; }
+
+  /** carte voyage **/
+  .carte {
+    width: 90%;
+    margin: 3.4%; }
+
+  .image-carte {
+    padding-bottom: 140px; }
+
+  /** section pourquoi nous choisir **/
+  .content-icon {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px; }
+
+  .content-icon p {
+    font-size: 24px;
+    text-align: center; }
+
+  .content-icon img {
+    margin: auto; }
+
+  /** section newsletter 500 **/
+  #barre {
+    padding: 0px 0px 0px 0px;
+    width: 90%;
+    display: block;
+    margin: auto; }
+
+  #blocMail {
+    margin: auto;
+    justify-content: center; }
+
+  #email {
+    font-size: 30px;
+    width: 70%; }
+
+  #validate {
+    margin: auto;
+    font-size: 25px; }
+
+  /** section qui sommes nous **/
+  .ligne {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+
+  .ligne div {
+    width: 100%;
+    display: block; }
+
+  #bloc-gauche img {
+    width: 90%;
+    margin: 20px; }
+
+  #bloc-gauche {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: auto; }
+
+  #bloc-droit {
+    display: block;
+    padding: 20px;
+    width: 100%; }
+
+  #bloc-bio p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center; }
+
+  /** section contactez-nous **/
+  #infos-pratique {
+    display: block;
+    margin: auto;
+    flex-wrap: wrap; }
+
+  .content-info {
+    width: 100%; }
+
+  .content-info p {
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center; }
+
+  #facebook-et-map {
+    text-align: center;
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    margin: auto; }
+
+  .fab {
+    display: block; }
+
+  #map {
+    z-index: 0; }
+
+  #bloc-form {
+    display: block;
+    width: 100%; }
+
+  #bloc-form {
+    width: 100%;
+    display: block; }
+
+  .form-style-1 .field-divided {
+    width: 100%; }
+
+  #envoyerForm {
+    display: block;
+    font-size: 20px; }
+
+  /**  footer **/
+  footer {
+    display: block; }
+
+  footer h5 {
+    font-size: 15px; }
+
+  .copyright {
+    font-size: 15px; }
+
+  .ligne2 {
+    width: 100%;
+    display: block; }
+
+  .ligne2 div {
+    width: 100%; }
+
+  /** choixVoyage page offres **/
+  #accueil-offres h1 {
+    font-size: 36px; }
+
+  .rect-blanc {
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    padding: 3px; }
+
+  #choixVoyage {
+    display: block;
+    margin: 20px auto;
+    justify-content: center;
+    padding: 40px; }
+
+  .btnVoyage {
+    display: block;
+    font-size: 23px;
+    padding: 16px;
+    margin: 5px 5px;
+    text-align: center; }
+
+  /**   page reservations **/
+  #form {
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap; }
+
+  #demande-formulaire .form-style-1 {
+    display: block;
+    width: 90%; }
+
+  #demande-formulaire .form-style-1 .field-divided {
+    width: 100%; }
+
+  #demande-formulaire .form-style-1 .field-long {
+    width: 100%;
+    margin: 5px 0 0 0; } }
+@media screen and (max-width: 320px) {
+  .bordureMenuBurger {
+    width: 100%; }
+
+  #burger {
+    width: 20px;
+    padding: 10px; }
+
+  #logo {
+    display: block;
+    width: 70px;
+    height: 50px;
+    margin: auto; }
+
+  /** banniere page index1 320 **/
+  .ligne-banniere-page-index {
+    display: block;
+    width: 100%; }
+
+  .carte-cap {
+    width: 90%; }
+
+  .carte-cap h1 {
+    font-size: 25px; }
+
+  .carte-cap p {
+    font-size: 30px; }
+
+  .button-cap {
+    width: 10px; }
+
+  .carte-offre h2 {
+    font-size: 30px; }
+
+  .button-offre {
+    width: 80%; }
+
+  .carte-offre a {
+    font-size: 28px; }
+
+  #accueil #offre {
+    background-size: 130px;
+    width: 90%;
+    margin: auto; }
+
+  #accueil h2 {
+    font-size: 16px; }
+
+  .bouton2 {
+    margin-top: 130px; }
+
+  .bouton2 a {
+    font-size: 14px; }
+
+  .bouton_voir_tout {
+    width: 150px;
+    padding: 5px;
+    font-size: 14px; }
+
+  #dernieres_offres h3 {
+    font-size: 25px; }
+
+  .carte {
+    width: 90%;
+    margin: 3.4%; }
+
+  .image-carte {
+    padding-bottom: 140px; }
+
+  #choisir h3 {
+    font-size: 30px; }
+
+  .icons {
+    width: 100%;
+    margin: auto; }
+
+  .content-icon p {
+    font-size: 24px;
+    text-align: center; }
+
+  #newsletter {
+    background-attachment: cover; }
+
+  #newsletter h3 {
+    font-size: 30px;
+    margin: 30px 0 0 0; }
+
+  #newsletter p {
+    font-size: 20px; }
+
+  #blocMail {
+    width: 90%;
+    display: block;
+    margin: auto; }
+
+  #email {
+    display: block;
+    margin: auto; }
+
+  #validate {
+    display: block;
+    font-size: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px; }
+
+  #qui h3 {
+    font-size: 30px; }
+
+  .ligne {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+
+  .ligne div {
+    width: 100%;
+    display: block; }
+
+  #bloc-gauche img {
+    width: 90%;
+    margin: auto;
+    display: block; }
+
+  #bloc-droit {
+    display: block;
+    margin: 0px;
+    padding: 0px; }
+
+  #bloc-bio p {
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    padding: 20px 20px 20px 20px; }
+
+  #infos-pratique {
+    padding: 0px; }
+
+  footer {
+    display: block; }
+
+  footer h5 {
+    font-size: 20px; }
+
+  .ligne2 {
+    width: 100%;
+    display: block;
+    box-sizing: border-box; }
+
+  .ligne2 div {
+    width: 100%; }
+
+  #contact h3 {
+    font-size: 35px; }
+
+  #infos-pratique {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    flex-wrap: wrap; }
+
+  .content-info {
+    width: 100%; }
+
+  .content-info p {
+    width: 100%;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center; }
+
+  #facebook-et-map {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    margin: auto; }
+
+  .fab {
+    display: block;
+    text-align: center; }
+
+  #map {
+    z-index: 0; }
+
+  #bloc-form {
+    display: flex;
+    width: 100%; }
+
+  .form-style-1 {
+    display: block;
+    width: 80%; }
+
+  .field-textarea {
+    margin: auto;
+    padding: 10px; }
+
+  #accueil-offres h1 {
+    font-size: 25px; }
+
+  .rect-blanc {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    padding: 5px; }
+
+  /* barre de recherche  320 */
+  #choixVoyage {
+    display: block;
+    margin: 20px auto;
+    justify-content: center;
+    padding: 40px; }
+
+  .btnVoyage {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px 5px;
+    text-align: center; }
+
+  #banniere-page-reservation {
+    margin-top: 120px;
+    padding: 60px 0 60px 0; }
+
+  #rectangle-demande-reservation {
+    width: 200px;
+    height: 20px; }
+
+  #rectangle-demande-reservation h1 {
+    font-size: 18px; }
+
+  #demande-formulaire h2 {
+    font-size: 15px;
+    text-align: center;
+    margin: 15px; }
+
+  #form {
+    background-color: #e8e8e8;
+    width: 230px;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap; }
+
+  #demande-formulaire .form-style-1 {
+    display: block;
+    width: 80%; }
+
+  #demande-formulaire .form-style-1 .field-divided {
+    width: 100%; }
+
+  #demande-formulaire .form-style-1 .field-long {
+    width: 100%;
+    margin: 5px 0 0 0; } }
+
+/*# sourceMappingURL=style.css.map */
