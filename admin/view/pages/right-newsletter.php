@@ -245,7 +245,7 @@ if(isset($_POST['demandeNewsletter'])) {
     $headers = 'From: damien.lebihanoff@gmail.com' . "\r\n" .
     //'Reply-To: ' . $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
-    mail($to, $subject, $message, $headers);
+    // mail($to, $subject, $message, $headers); Le site n'est pas en ligne
 
   ?>
   <div id="merci" class="offreActu">

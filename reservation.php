@@ -169,7 +169,7 @@ if (isset($_POST['submitContact'])){
     $headers = 'From: damien.lebihanoff@gmail.com' . "\r\n" .
     'Reply-To: ' . $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
-    mail($to, $subject, $message, $headers);
+    // mail($to, $subject, $message, $headers);  Actuellement bloqué car site pas en ligne.
 
   ?>
   <div id="merci" class="newsletter">
@@ -470,7 +470,7 @@ if (isset($_POST['submitContact'])){
         <input id="dateRet" class="field-divided" type="date" name="dateRetour"
              /> 
       
-      <textarea name="message" id="message" class="field-long field-textarea" placeholder="Projet de séjour" required></textarea>
+      <textarea name="message" id="message" class="field-long field-textarea" placeholder="Projet de séjour"></textarea>
       <input type="checkbox" id="field5Resa" class="field5" ><label for="field5Resa"> J’accepte d’être recontacté.e par Vert-Galant Voyages et ses partenaires. </label> 
       <input id="envoyerFormResa2" type="submit" value="envoyer" name="submitReservation" disabled /> 
    
@@ -539,7 +539,7 @@ if(isset($_POST['submitContact'])) {
   $headers = 'From: damien.lebihanoff@gmail.com' . "\r\n" .
   'Reply-To: ' . $email2 . "\r\n" .
   'X-Mailer: PHP/' . phpversion();
-  mail($to, $subject, $message, $headers);
+  // mail($to, $subject, $message, $headers); Site pas en lignee
 
 ?>
 <div id="merci" class="newsletter">
@@ -560,7 +560,7 @@ if(isset($_POST['submitContact'])) {
                     <input type="email" id="email2" name="email2" class="field-divided" placeholder="Email" minlength="6" required/>
                     <input type="tel" id="tel" name="tel2" class="field-divided" placeholder="Telephone"  minlength="10" maxlength="13" required/>
 
-                <textarea name="message2" id="message2" class="field-long field-textarea" placeholder="Votre message" required></textarea>
+                <textarea name="message2" id="message2" class="field-long field-textarea" placeholder="Votre message"></textarea>
                 
                 
                     <input type="checkbox" id="field5Resa2" name="field5" ><label for="field5Resa2">  J’accepte d’être recontacté.e par Vert-Galant Voyages et ses partenaires. </label>

@@ -365,7 +365,7 @@ while ($quatreOffres = $dernieresOffres->fetch(PDO::FETCH_ASSOC)) {
       $headers = 'From: damien.lebihanoff@gmail.com' . "\r\n" .
       'Reply-To: ' . $email . "\r\n" .
       'X-Mailer: PHP/' . phpversion();
-      mail($to, $subject, $message, $headers);
+    //   mail($to, $subject, $message, $headers); Le site n'est pas ligne
 
     ?>
     <div id="merci" class="newsletter">
@@ -385,7 +385,7 @@ while ($quatreOffres = $dernieresOffres->fetch(PDO::FETCH_ASSOC)) {
                         <input type="email" id="email2"  name="email2" class="field-divided" placeholder="Email" minlength="6" required/>
                         <input type="tel" id="tel" name="tel" class="field-divided" placeholder="Telephone" minlength="10" title="minimum 10 caractères" maxlength="13" required/>
     
-                    <textarea name="message" id="message" class="field-long field-textarea" placeholder="Votre message" required ></textarea>
+                    <textarea name="message" id="message" class="field-long field-textarea" placeholder="Votre message" ></textarea>
                     
                         <input type="checkbox" id="field5" name="field5"> <label for="field5"> J’accepte d’être recontacté.e par Vert-Galant Voyages et ses partenaires.</label> 
             
