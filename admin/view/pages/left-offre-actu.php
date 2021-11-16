@@ -16,7 +16,7 @@ while ($offres = $resultat->fetch(PDO::FETCH_ASSOC)) {
 				<h3 class="leftInfosTitle">Prix / Promotion :</h3>
 				<p class="leftInfos"><?php echo $offres['prix_promo']; ?></p>
 				<h3 class="leftInfosTitle">PDF :</h3>
-				<p class="leftInfos"><a href="../upload-img/<?php echo $offres['image']; ?>" target="_blank"><?php echo $offres['pdf']; ?></a></p>
+				<p class="leftInfos"><a href="../upload-pdf/<?php echo $offres['pdf']; ?>" target="_blank"><?php echo $offres['pdf']; ?></a></p>
 				<h3 class="leftInfosTitle">Grande Image :</h3>
 				<img src="../upload-img/<?php echo $offres['image']; ?>">
 			</section>
